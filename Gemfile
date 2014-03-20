@@ -14,6 +14,9 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'mysql2'
 
+gem 'mysql'
+
+gem 'pg'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
