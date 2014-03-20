@@ -1,0 +1,10 @@
+<h3>Tenner Deals</h3> 
+<h1>Dear<b> <%= @order.name =%></b></h1>
+
+<p> This is just to let you you purchased the following deals: </p>
+<table> 
+<tr>
+<th colspan="2">Qty</th>
+<th>Description</th></tr>
+ <%= render @order.line_items =%> 
+ </table>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Bobby: MyString
+  view: MyString
+  show: MyString
+
+two:
+  Bobby: MyString
+  view: MyString
+  show: MyString

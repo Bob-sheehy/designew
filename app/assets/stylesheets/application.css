@@ -1,0 +1,166 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+/* START_HIGHLIGHT */
+#banner {
+  background: #E0E0E0;
+  padding: 10px;
+  border-bottom: 2px solid;
+  	border-radius: 8px;
+	  margin-bottom: 0.5em;
+  font: small-caps 55px/55px "Comic Sans MS";
+  color: black;
+  text-align: center;
+
+}
+
+#notice {
+  color: red !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #f0f0f0;
+  text-align: center;
+  font: bold large sans-serif;
+  float: middle;
+  //align: centre;
+
+}
+#side1 { 
+float: left;
+//margin-bottom: 9em;
+    margin-top: 2.5em;
+    margin-right: 3em;
+
+  border: 2px solid red;
+padding: 2em 1.5em; 
+width: 4em;
+background-color: #white;
+height: 80em;
+//background: #141;}
+
+#side2 { 
+float: right;
+//margin-bottom: 9em;
+    margin-top: 2.5em;
+
+  border: 2px solid red;
+padding: .5em 1.5em; 
+width: 12em;
+background-color: #white;
+height: 80em;
+//background: #141;
+form, div {
+      display: inline;
+    }  
+ 
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: smaller;
+      color:     white;
+
+      table {
+        border-top:    1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
+      }
+    }
+ 
+
+#columns {
+  background: #CCCCFF;
+    margin-bottom: 4em;
+	    margin-top: 2em;
+
+	//color: green;//border around deals
+    padding: 0.5em;
+  	    height: 5em;
+		border: 2.5px solid #E0E0E0;
+		  	border-radius: 8px;
+			text-decoration:none;}
+
+
+
+  #main {
+    margin-left: 14em;
+    padding: 1em;
+   // background: red;
+	    margin-bottom: 4em;
+		
+    margin-top: 4.5em;
+
+  
+  #side {
+    float: right;
+    padding: 250em 25em;
+    width: 13em;
+	//text-decoration:none;
+	    height: 130em;
+    //background: #141;
+	
+   ul {
+      padding: 20em;
+	  	    height: 130em;
+			text-decoration:none;
+            	font: 55px/55px "Times New Roman", serif;
+
+        a {
+          //color: green;
+		  align-items:center;
+
+		  text-decoration:none;
+          font-size: 40px;
+		  //font-align: right;
+        }
+      }
+    }
+/* END_HIGHLIGHT */
+.depot_form {
+  fieldset {
+    background: #efe;
+
+    legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+  }
+
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+
+    select, textarea, input {
+      margin-left: 0.5em;
+    }
+
+    .submit {
+      margin-left: 4em;
+    }
+
+    br {
+      display: none
+    }
+  }
+}
+//#END:form
